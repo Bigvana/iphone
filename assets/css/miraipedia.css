@@ -5,7 +5,11 @@ body {
     background: url(https://files.stocky.ai/uploads/2019/03/image-Transparency-Cocktail-menu-design-background-stocky-ai-4612792.jpg) no-repeat;
     background-size: cover;
 }
-
+ h2 { margin: 5px 0; }
+    h1 { margin: 5px 0; }
+    h3 { margin: 5px 0; }
+    h4 { margin: 5px 0; }
+    p, strong { margin: 3px 0; /* reduce top and bottom margins for elements */ }
 @font-face {
     font-family: "miraipedia";
     src: url(fonts/idhaam69.ttf);
@@ -292,7 +296,7 @@ body {
 }
     
 .img-contentmirai {
-    width: 200px;
+    width: 100px;
     height: auto;
     display: block;
     margin: 5px auto 10px auto;
